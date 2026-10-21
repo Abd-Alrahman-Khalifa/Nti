@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 100vh;
+    background: url(../images/hero.webp) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+    background-color: #EEECEC;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    
+}
+nav h1{
+    padding: 15px;
+    font-size: 42px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding: 10px 0 15px;
+}
+nav hr{
+    border: 1px solid rgba(0, 0, 0, 0.055);
+}
+nav ul li a{
+    text-decoration: none;
+    transition: .3s linear;
+    padding: 5px 0;
+    border: 2px solid rgba(20, 20, 20, 0);
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+nav ul li a:hover{
+    color: #6A6A3A;
+    border-bottom: 2px solid #6A6A3A;
+}
+header > div{
+    background-color: rgba(0, 0, 0, 0.596);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 40px;
+
+}
+header div pre{
+    margin: 100px 0 10px;
+    color: #a0a066;
+    border: 1px solid #a0a066;
+    font-weight: 400;
+    padding: 3px 15px;
+    letter-spacing: 3px;
+    font-size: 12px;
+
+}
+header div p{
+    width: 53%;
+    font-size: 100px;
+    text-align: end;
+    font-weight: bolder;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* letter-spacing: 1px; */
+}
+header div p span{
+    color: #999c68; 
+    font-style: italic; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
